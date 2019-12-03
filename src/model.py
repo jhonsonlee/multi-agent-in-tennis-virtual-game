@@ -15,7 +15,7 @@ class Actor(nn.Module):
         super(Actor, self).__init__()
         self.seed = torch.manual_seed(seed)
         
-        self.fc1 = nn.Linear(state_size, fc1_units)
+        self.fc1 = nn.Linear(state_size*2, fc1_units)
         self.bn1 = nn.BatchNorm1d(fc1_units)
         self.fc2 = nn.Linear(fc1_units, fc2_units)
         self.fc3 = nn.Linear(fc2_units, action_size)
@@ -50,9 +50,9 @@ class Critic(nn.Module):
         super(Critic, self).__init__()
         self.seed = torch.manual_seed(seed)
         
-        self.fcs1 = nn.Linear(state_size, fcs1_units)
+        self.fcs1 = nn.Linear(state_size*2, fcs1_units)
         self.bn1 = nn.BatchNorm1d(fcs1_units)
-        self.fc2 = nn.Linear(fcs1_units+action_size, fc2_units)
+        self.fc2 = nn.Linear(fcs1_units+(action_size*2), fc2_units)
         self.fc3 = nn.Linear(fc2_units, 1)
         self.reset_parameters()
 
