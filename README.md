@@ -6,7 +6,7 @@
 
 # Project 3: Collaboration and Competition
 
-### Introduction
+## Introduction
 
 For this project, you will work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.
 
@@ -23,7 +23,7 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-### Getting Started
+## Getting Started
 
 Follow the instructions below to explore the environment on your own machine! You will also learn how to use the Python API to control your agent.
 
@@ -77,7 +77,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 2. Place the file in the `multi-agent-in-tennis-virtual-game` repository. 
 
 
-### Instructions
+## Instructions
 
 ### Navigating The Source Code
 There are three important files which contains the source code to run and train our agent:
