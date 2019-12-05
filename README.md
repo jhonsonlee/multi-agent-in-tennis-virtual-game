@@ -86,7 +86,7 @@ There are three important files which contains the source code to run and train 
 - `/src/model.py` contains the source code of deep learning model for the DDPG algoritm.
 
 ### Explore the Environment
-In order to understand how to create a smart agent, we must recognize the environment first. Please, open `Continious Control.ipynb` using Jupyter Notebook and follow these steps:
+In order to understand how to create a smart agent, we must recognize the environment first. Please, open `Tennis.ipynb` using Jupyter Notebook and follow these steps:
 - Step 1 : Start the Environment
 - Step 2 : Examine the State and Action Spaces
 - Step 3 : Take Random Actions in the Environment
