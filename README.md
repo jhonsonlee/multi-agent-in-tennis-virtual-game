@@ -97,7 +97,7 @@ As you can see in the **Explore the Environment** section, the agent is still ta
 - Step 5 : Train the Agent
 
 ### Watch the Smart Agent Play
-After we train to agent how to better play the game, we can watch the agent play with better decision and better score. Howevever, we can not see the agent play in live gameplay in this notebook. But, we can see the agent collects yellow bananas and avoids blue bananas by inspecting the score movement. Please follow the **Step 6 : Watch the Agent Play**.
+After we train to agent how to better play the game, we can watch the agent play with better decision and better score. Howevever, we can not see the agent play in live gameplay in this notebook. But, we can see the agent correctly play the game by seeing the movement of the score on the terminal. Please follow the **Step 6 : Watch the Agent Play**.
 
 ### (Optional) Challenge: Crawler Environment
 
